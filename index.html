@@ -273,12 +273,12 @@
         </div>
         <ul class="nav-list">
             <li class="nav-item active"><a href="#introduction">Introduction</a></li>
-            <li class="nav-item"><a href="#information-collection">Data Collection</a></li>
+            <li class="nav-item"><a href="#no-data-collection">No Data Collection</a></li>
             <li class="nav-item"><a href="#device-permissions">Device Permissions</a></li>
-            <li class="nav-item"><a href="#data-usage">Data Usage</a></li>
-            <li class="nav-item"><a href="#data-storage">Data Storage & Security</a></li>
+            <li class="nav-item"><a href="#data-handling">Data Handling & API</a></li>
+            <li class="nav-item"><a href="#local-storage">On-Device Storage</a></li>
             <li class="nav-item"><a href="#third-party">Third-Party Services</a></li>
-            <li class="nav-item"><a href="#user-rights">User Rights</a></li>
+            <li class="nav-item"><a href="#user-rights">User Control</a></li>
             <li class="nav-item"><a href="#children-privacy">Children's Privacy</a></li>
             <li class="nav-item"><a href="#contact">Contact Support</a></li>
         </ul>
@@ -286,83 +286,79 @@
 
     <main class="main-content">
         <header class="header">
-            <span class="badge">Google Play Store Compliant</span>
+            <span class="badge">100% Privacy Friendly</span>
             <h1>Privacy Policy</h1>
             <p class="subtitle">Effective Date: May 29, 2026 | Last Updated: May 29, 2026</p>
         </header>
 
         <section id="introduction" class="card">
             <h2>1. Introduction</h2>
-            <p>Welcome to <strong>LLM Studio — Premium AI Chat Assistant</strong> ("LLM Studio", "we", "our", or "us"). We are dedicated to maintaining the trust and confidence of all users of our mobile application. This Privacy Policy details how we handle the collection, use, protection, and disclosure of information when you use our app.</p>
-            <p>Our commitment is simple: we respect your privacy and process data in a fully transparent, secure, and compliant manner, in line with Google Play Developer Policies and global data privacy standards.</p>
+            <p>Welcome to <strong>LLM Studio — Premium AI Chat Assistant</strong> ("LLM Studio", "we", "our", or "us"). We are strongly committed to user privacy. This Privacy Policy details our policies regarding user data when you use our mobile application.</p>
+            <p>Our commitment is absolute: <strong>we do not collect, store, transmit, or harvest any of your personal data</strong>. LLM Studio is built from the ground up to be fully privacy-friendly, secure, and compliant with all Google Play Developer Policies.</p>
         </section>
 
-        <section id="information-collection" class="card">
-            <h2>2. Information Collection and Use</h2>
-            <p>When you use LLM Studio, we strive to collect the minimum amount of personal data necessary to provide a high-quality AI chat experience. The types of data we interact with are categorized below:</p>
+        <section id="no-data-collection" class="card">
+            <h2>2. No Data Collection</h2>
+            <p>We believe in absolute data privacy. When you use LLM Studio:</p>
             <ul>
-                <li><strong>Local Chat Data:</strong> Your prompts and assistant responses are processed and stored directly on your mobile device. We do not store your chat logs on our own centralized servers.</li>
-                <li><strong>Device Information:</strong> We may collect non-identifiable technical data such as your device model, operating system version, and unique device identifiers to optimize application performance.</li>
-                <li><strong>User-Provided Content:</strong> Any images or audio clips you select or capture within the app are sent strictly to the underlying AI model provider for the sole purpose of generating responses (e.g., image-to-text or voice-to-text conversion). These inputs are not stored or harvested by us.</li>
+                <li><strong>No Personal Information:</strong> We do not ask for, collect, or store any personal information (such as your name, email address, phone number, or account credentials).</li>
+                <li><strong>No Conversation Collection:</strong> Your chat messages, prompts, and assistant responses are entirely private to you. We do not transmit them to our servers, nor do we log or view them.</li>
+                <li><strong>No Analytics or Tracking:</strong> We do not integrate any third-party advertising or tracking SDKs that harvest your personal behavior or profile your device.</li>
             </ul>
         </section>
 
         <section id="device-permissions" class="card">
             <h2>3. Device Permissions</h2>
-            <p>To deliver advanced interactive AI features, LLM Studio requests explicit access to certain device features. These permissions are only requested when you initiate the relevant feature within the app, and you can revoke them at any time in your device settings:</p>
+            <p>To enable interactive AI features, the app may request access to specific device capabilities. These permissions are only active when initiated by you and can be revoked at any time in your device settings:</p>
             <ul>
-                <li><strong>Camera Permission:</strong> Required when you choose to take a photo directly through the app to send to the AI vision assistant.</li>
-                <li><strong>Microphone Permission:</strong> Required for the voice input and speech-to-text feature, allowing you to speak your prompts.</li>
-                <li><strong>Storage / Media Library:</strong> Required to select existing images or files to upload for AI processing, or to save generated assets and exports locally to your device.</li>
-                <li><strong>Network Access:</strong> Necessary to communicate with the secure servers processing the AI models.</li>
+                <li><strong>Camera Permission:</strong> Used solely to capture images that you choose to upload to the AI model for visual analysis. Images are processed in real-time and are never stored or saved by us.</li>
+                <li><strong>Microphone Permission:</strong> Used solely to capture your voice when using the speech-to-text prompt feature. The audio is converted to text locally or securely via standard API and is never recorded or stored.</li>
+                <li><strong>Storage / Media Access:</strong> Used exclusively to let you choose existing images/files to send to the assistant, or to save exported chat transcripts directly to your device.</li>
+                <li><strong>Network Access:</strong> Used purely to establish a secure connection with the AI model APIs (e.g. Gemini, OpenAI) to generate your chat answers.</li>
             </ul>
         </section>
 
-        <section id="data-usage" class="card">
-            <h2>4. Data Usage</h2>
-            <p>We do not sell, rent, or trade your personal information. Any data accessed or processed through the app is used exclusively for:</p>
+        <section id="data-handling" class="card">
+            <h2>4. Data Handling & Security</h2>
+            <p>Since we do not collect any user data, there is no personal data to sell, rent, trade, or share. Any transient data processed during your active session is protected by strict security protocols:</p>
             <ul>
-                <li>Operating, maintaining, and improving the app's features and overall user experience.</li>
-                <li>Fulfilling your requests within the application (e.g. generating AI-based text, processing voice commands, analyzing images).</li>
-                <li>Diagnosing technical issues, resolving bugs, and monitoring application performance.</li>
+                <li><strong>Encryption in Transit:</strong> All communications between the app and the secure AI model API endpoints are encrypted using industry-standard Transport Layer Security (TLS/HTTPS).</li>
+                <li><strong>Zero Server-Side Storage:</strong> There is no back-end database managed by us where your data or chats are stored. Your interactions remain entirely on your own device.</li>
             </ul>
         </section>
 
-        <section id="data-storage" class="card">
-            <h2>5. Data Storage and Security</h2>
-            <p>The security of your personal data is paramount. We implement robust, industry-standard technical and organizational security measures to protect your information:</p>
+        <section id="local-storage" class="card">
+            <h2>5. On-Device Storage</h2>
+            <p>All of your application settings, model configurations, and chat histories are stored exclusively on your own mobile device:</p>
             <ul>
-                <li><strong>On-Device Encryption:</strong> Chat histories, local settings, and customized parameters are stored securely on your device using encrypted, high-performance local key-value stores.</li>
-                <li><strong>Transit Security:</strong> All data transmitted between the app and external AI APIs is encrypted in transit using Secure Socket Layer (SSL) / Transport Layer Security (TLS) protocols.</li>
-                <li><strong>No Centralized Logging:</strong> We do not log or store the text of your conversations on our databases. All interaction history is under your control on your physical device.</li>
+                <li><strong>Local Database:</strong> We utilize encrypted on-device database storage (Hive) to keep your settings and chat history saved locally on your physical device.</li>
+                <li><strong>Full Physical Control:</strong> Your data never leaves your device unless you choose to share or export it yourself.</li>
             </ul>
         </section>
 
         <section id="third-party" class="card">
             <h2>6. Third-Party Services</h2>
-            <p>To process your queries, the app connects to third-party AI APIs (such as Google Gemini, OpenAI, or other integrated model providers). These third-party services process the data you send (e.g. text prompts, voice clips, or images) to generate the corresponding responses.</p>
-            <p>These partners are committed to high security and privacy standards. They do not use your inputs to train public models unless specified, and their data processing is subject to their respective privacy policies. We encourage you to review their policies to understand how they handle your data.</p>
+            <p>To generate assistant responses, the app connects directly to reputable, secure third-party AI APIs (such as Google Gemini or OpenAI). When you send a prompt, image, or audio input, it is processed by these models solely to return your answer.</p>
+            <p>These enterprise AI providers have strict privacy guarantees, ensuring that inputs processed via API keys are secure, not stored permanently, and not utilized for training public models. We recommend referring to their respective developer privacy policies for detailed assurance.</p>
         </section>
 
         <section id="user-rights" class="card">
-            <h2>7. Your Rights and Data Control</h2>
-            <p>We respect your control over your data. Because all conversation data is stored locally, you have the absolute right to control it:</p>
+            <h2>7. User Control & Data Deletion</h2>
+            <p>Because all data remains on your physical device, you have complete control over it at all times:</p>
             <ul>
-                <li><strong>Data Deletion:</strong> You can completely erase your entire chat history and reset the application settings at any time directly through the Settings screen in the app.</li>
-                <li><strong>App Uninstall:</strong> Uninstalling the LLM Studio application will automatically delete all locally stored data, chat records, and app configurations from your device.</li>
-                <li><strong>Permission Management:</strong> You can enable or disable permissions (Camera, Microphone, Storage) at any time via your device's system settings.</li>
+                <li><strong>Instant Clearing:</strong> You can wipe your entire local chat history and reset all app preferences instantly via the Settings menu in the app.</li>
+                <li><strong>Automatic Purge:</strong> Uninstalling the application from your device completely purges all local data, databases, and configuration settings automatically.</li>
             </ul>
         </section>
 
         <section id="children-privacy" class="card">
             <h2>8. Children's Privacy</h2>
-            <p>LLM Studio is not intended for use by anyone under the age of 13. We do not knowingly collect or request personal identifiable information from children under 13. If we discover that a child under 13 has provided us with personal information, we immediately delete it from our systems. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we can perform necessary actions.</p>
+            <p>Since LLM Studio collects absolutely zero personal information or user data from any individual, we do not knowingly or unknowingly collect or process any data from children under the age of 13. The application is completely safe and privacy-friendly for all users.</p>
         </section>
 
         <section id="contact" class="card">
             <h2>9. Contact Us</h2>
-            <p>If you have any questions, concerns, or feedback regarding this Privacy Policy or our privacy practices, please do not hesitate to contact us. We are committed to responding to your inquiries promptly.</p>
-            <p>You can reach our support team at:</p>
+            <p>If you have any questions, suggestions, or require any support regarding our privacy commitment, please reach out to us at:</p>
             <a href="mailto:nexusplayengine@protonmail.com" class="contact-btn">nexusplayengine@protonmail.com</a>
         </section>
 
